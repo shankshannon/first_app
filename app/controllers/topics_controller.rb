@@ -22,6 +22,10 @@
   def edit
   end
 
+  # GET /topics/about
+  def about
+  end
+
   # POST /topics
   # POST /topics.json
   def create
