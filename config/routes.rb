@@ -9,7 +9,9 @@ Rails.application.routes.draw do
 #		delete 'downvote'
 #	end
 #  end
-   resources :groups
+   resources :groups do
+   	resources :posts
+   end
 #   root "welcome#index"
    root 'groups#index'
 end
